@@ -5,7 +5,4 @@ pyTelegramBotAPI==3.6.7
 python-telegram-bot==20.3
 datetime
 aiohttp
-importlib
-sched
 tgcrypto
-setuptools
