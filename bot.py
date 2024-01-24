@@ -9,7 +9,7 @@ from utlis.tg import Bot,Del24
 from handlers.edit import edit
 from utlis.locks import GPck
 from handlers.nf import nf
-from config import *
+
 
 from pyrogram.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 import threading, requests, time, random, importlib
