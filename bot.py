@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-
+from mody import Mody
 from utlis.rank import setrank ,isrank ,remrank ,setsudos ,remsudos ,setsudo
 from handlers.callback import updateCallback
 from handlers.msg import updateHandlers
@@ -22,7 +22,7 @@ if not os.path.isdir('./files'):
     
 BOT_ID = "6635986173"
 
-app = Client("NB"+BOT_ID,bot_token=TOKEN,api_id = API_ID, api_hash = API_HASH)
+app = Client("NB"+BOT_ID,bot_token=Mody.ELHYBA,api_id = Mody.API_ID, api_hash = Mody.API_HASH)
 setsudo(R,SUDO)
 R.set("{}Nbot:BOTrank".format(BOT_ID), BOT_ID)
 
