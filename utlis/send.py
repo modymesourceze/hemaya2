@@ -1,6 +1,6 @@
 from utlis.rank import setrank,isrank,remrank,remsudos,setsudo
 from utlis.tg import Bot
-from config import *
+
 
 from pyrogram.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 import threading, requests, time, random, re, json ,os ,datetime

@@ -1,4 +1,4 @@
-from config import *
+
 from utlis.tg import Bot
 
 def setrank(redis,rank,userID,chatID,type):
