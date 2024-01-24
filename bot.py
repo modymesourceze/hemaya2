@@ -10,7 +10,7 @@ from handlers.edit import edit
 from utlis.locks import GPck
 from handlers.nf import nf
 
-
+SUDO = Mody.OWNER
 from pyrogram.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 import threading, requests, time, random, importlib
 import redis
